@@ -22,8 +22,8 @@
             <div class="line3"></div>
           </div>
           <ul class="nav-list ">
-            <li><a href="">Início</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li><a href="Page-home.php">Início</a></li>
+            <li><a href="sobre.php">Sobre</a></li>
           </ul>
         </nav>
       </header>

@@ -7,9 +7,10 @@ body{
   /*colocar menu para cima*/
 }
 .flex img{
-  width: 350px;
+  width: 400px;
   margin: 17px;
   padding-top: 80px;
+  border-radius: 2rem 300px;
 }
 .flex{
  justify-content: space-between;

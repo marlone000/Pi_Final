@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body class="body">
     <header class="cabecalho">
         <nav>
           <img src="IMG/logo.png" alt=""> <a class="logo" href=""></a>
@@ -22,8 +22,8 @@
             <div class="line3"></div>
           </div>
           <ul class="nav-list ">
-            <li><a href="">Início</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li><a href="Page-home.php">Início</a></li>
+            <li><a href="sobre.php">Sobre</a></li>
           </ul>
         </nav>
       </header>

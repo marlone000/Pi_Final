@@ -10,7 +10,7 @@
             <h3>Blog</h3>
         </li> 
         <li>
-            <a href="#" class="footer-link">Animes</a>
+            <a href="Page-home.php" class="footer-link">Animes</a>
         </li>
     </ul>
     <ul class="footer-list">
@@ -19,7 +19,7 @@
         </li>
        
         <li>
-            <a href="#" class="footer-link">Quem Somos</a>
+            <a href="sobre.php" class="footer-link">Quem Somos</a>
         </li>
 
     </ul>

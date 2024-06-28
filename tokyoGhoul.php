@@ -1,11 +1,17 @@
 
+<?php include("Header-do-Sobre&Animes.php");?>
+
+ 
+
+
   <!-- card com conteudo -->
   <div class="container">
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/tokyoghoul.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">Tokyo Ghoul</p>
+          <h1 class="text-center">Tokyo Ghoul</h1>
+            <img src="./IMG/tokyoghoul.jpg" alt="" class="img-fluid">
+          
             <p class="text-start">Autor: Sui Ishida</p>
             <p class="text-start">Nome em japonês: (東京喰種 トーキョーグール) Tōkyō Gūru</p>
             <p class="text-start">Capítulos do Mangá: 143 capítulos: Terminou em 17 de outubro de 2014</p>
@@ -17,4 +23,4 @@
   </div>
  
   <!-- card com conteudo fim -->
-  
+  <?php include("Footer.php")?>

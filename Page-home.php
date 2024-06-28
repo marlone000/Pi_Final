@@ -24,67 +24,67 @@
         </a>
     </div>
     <div>
-        <a href="/ANIMES/bleach.php">
+        <a href="./bleach.php">
             <img src="IMG/Bleach.jpg" alt="Foto do anime Bleach" class="img-fluid">
             <h2>Bleach</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/onePiece.php">
+        <a href="./onePiece.php">
             <img src="IMG/one piece.jpg" alt="Foto do anime One piece" class="img-fluid">
             <h2>One Piece</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/naruto.php">
+        <a href="./naruto.php">
             <img src="IMG/Naruto.jpg" alt="Foto do anime Naruto" class="img-fluid">
             <h2>Naruto</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/evangelion.php">
+        <a href="./evangelion.php">
             <img src="IMG/evangeliom.jpg" alt="Foto do anbime Evangelion" class="img-fluid">
             <h2>Evangelion</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/hxh.php">
+        <a href="./hxh.php">
             <img src="IMG/HxH.jpg" alt="Foto do anime Hunter X Hunter" class="img-fluid">
             <h2>Hunter X Hunter</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/DBZ.php">
+        <a href="./DBZ.php">
             <img src="IMG/dragonball.jpg" alt="Foto do anime DragonBall" class="img-fluid">
             <h2>Dragonball</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/cdz.php">
+        <a href="./cdz.php">
             <img src="IMG/cavaleitos.jpg" alt="Foto do anime Cavaleiros do Zodiaco" class="img-fluid">
             <h2>Cavaleiros do Zodíaco</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/tokyoGhoul.php">
+        <a href="./tokyoGhoul.php">
             <img src="IMG/tokyoghoul.jpg" alt="Foto do anime Tokyo Ghoul" class="img-fluid">
             <h2>Tokyo Ghoul</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/tokyoRevengers.php">
+        <a href="./tokyoRevengers.php">
             <img src="IMG/tokyo_revengers.jpg" alt="Foto do anime Tokyo Revengers" class="img-fluid">
             <h2>Tokyo Revengers</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/jujutsu.php">
+        <a href="./jujutsu.php">
             <img src="IMG/jujutsu.jpg" alt="Foto do anime Jujutsu Kaisen" class="img-fluid">
             <h2>Jujutsu Kaisen</h2>
         </a>
     </div>
     <div>
-        <a href="/ANIMES/demonSlayer.php">
+        <a href="./demonSlayer.php">
             <img src="IMG/kimetsu.jpg" alt="Foto do anime Demon Slayer" class="img-fluid">
             <h2>Demon Slayer</h2>
         </a>

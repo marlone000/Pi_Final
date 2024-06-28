@@ -1,12 +1,18 @@
 
+<?php include("Header-do-Sobre&Animes.php");?>
+
+ 
+
+
   <!-- card com conteudo -->
   
 <div class="container">
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/tokyo_revengers.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">Tokyo Revengers</p>
+          <h1 class="text-center">Tokyo Revengers</h1>
+            <img src="./IMG/tokyo_revengers.jpg" alt="" class="img-fluid">
+            
             <p class="text-start">Autor: Ken Waki</p>
             <p class="text-start">Nome em japonês: (東京卍リベンジャーズ) Tōkyō Ribenjāzu</p>
             <p class="text-start">Capítulos do Mangá: 278 capítulos Manga: Terminou em 15 de Novembro de 2022.</p>
@@ -19,5 +25,5 @@
  
   <!-- card com conteudo fim -->
  
-
+  <?php include("Footer.php")?>
 

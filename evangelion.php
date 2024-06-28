@@ -1,10 +1,19 @@
+  
+  
+ <?php include("Header-do-Sobre&Animes.php");?>
+
+ 
+
+
+  
   <!-- card com conteudo -->
   <div class="container">
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/evangeliom.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">Evangelion</p>
+          <h1 class="text-center">Evangelion</h1>
+            <img src="./IMG/evangeliom.jpg" alt="" class="img-fluid">
+           
             <p class="text-start">Autor: Hideaki Anno</p>
             <p class="text-start">Nome em japonês: Shin Seiki Evangerion (新世紀エヴァンゲリオン)</p>
             <p class="text-start">Capítulos do Mangá: 96 capítulos: Terminou em 2013</p>
@@ -16,3 +25,6 @@
   </div>
  
   <!-- card com conteudo fim -->
+
+
+  <?php include("Footer.php")?>

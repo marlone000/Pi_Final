@@ -1,11 +1,16 @@
 
+<?php include("Header-do-Sobre&Animes.php");?>
+
+
+
   <!-- card com conteudo -->
   <div class="container">
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/kimetsu.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">Demon Slayer</p>
+          <h1 class="text-center">Demon Slayer</h1>
+            <img src="./IMG/kimetsu.jpg" alt="" class="img-fluid">
+            
             <p class="text-start">Autor: Koyoharu Gotouge</p>
             <p class="text-start">Nome em japonês: (鬼滅 きめつ の 刃 やいば) Kimetsu no Yaiba</p>
             <p class="text-start">Capítulos do Mangá: 205 capítulos Manga: Terminou em maio de 2020.</p>
@@ -18,3 +23,4 @@
  
   <!-- card com conteudo fim -->
  
+  <?php include("Footer.php")?>

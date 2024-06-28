@@ -1,11 +1,11 @@
-
+<?php include("Header-do-Sobre&Animes.php");?>
   <!-- card com conteudo -->
   <div class="container">
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/Bleach.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">Bleach</p>
+          <h1 class="text-center">Bleach</h1>
+            <img src="./IMG/Bleach.jpg" alt="" class="img-fluid">
             <p class="text-start">Autor: Tite Kubo</p>
             <p class="text-start">Nome em japonês: (ブリーチ) Burīchi</p>
             <p class="text-start">Capítulos do Mangá: 685 capítulos Manga: Terminou em agosto de 2016.</p>
@@ -20,3 +20,4 @@
  
   <!-- card com conteudo fim -->
    
+  <?php include ("Footer.php");?> 

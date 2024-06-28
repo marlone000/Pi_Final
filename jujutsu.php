@@ -1,11 +1,17 @@
 
+<?php include("Header-do-Sobre&Animes.php");?>
+
+ 
+
+
   <!-- card com conteudo -->
   <div class="container">
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/jujutsu.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">Jujutsu Kaisen</p>
+          <h1 class="text-center">Jujutsu Kaisen</h1>
+            <img src="./IMG/jujutsu.jpg" alt="" class="img-fluid">
+          
             <p class="text-start">Autor: Gege Akutami</p>
             <p class="text-start">Nome em japonês: (呪術廻戦) Jujutsu Kaisen</p>
             <p class="text-start">Capítulos do Mangá: 236 capítulos Manga: pode chegar ao fim em breve.</p>
@@ -16,4 +22,4 @@
   </div>
  
   <!-- card com conteudo fim -->
- 
+  <?php include("Footer.php")?>

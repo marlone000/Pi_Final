@@ -1,11 +1,12 @@
+<?php include("Header-do-Sobre&Animes.php");?>
 
   <!-- card com conteudo -->
   <div class="container">
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/cavaleitos.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">Cavaleiros do Zodíaco</p>
+          <h1 class="text-center">Cavaleiros do Zodíaco</h1>
+            <img src="./IMG/cavaleitos.jpg" alt="" class="img-fluid">
             <p class="text-start">Autor: Masami Kurumada</p>
             <p class="text-start">Nome em japonês: ( 聖闘士星矢 セイントセイヤ) Seinto Seiya</p>
             <p class="text-start">Capítulos do Mangá: 46 capítulos: Terminou em março de 1988 </p>
@@ -17,4 +18,4 @@
   </div>
  
   <!-- card com conteudo fim -->
- 
+  <?php include("Footer.php")?>

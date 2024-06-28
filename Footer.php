@@ -24,7 +24,7 @@
 
     </ul>
 
-    <img src="/IMG/logo_senac.png" alt="" class="img-fluid"> <a class="logo" href="#"></a>
+    <img src="./IMG/logo_senac.png" alt="" class="img-fluid"> <a class="logo" href="#"></a>
     <br><br>
 </div>
 
@@ -35,6 +35,6 @@
 </div>
 
   <!-- footer fim -->
-      <script src="/JAVASCRIPT/global.js"></script>
+      <script src="./JAVASCRIPT/global.js"></script>
 </body>
 </html>

@@ -7,10 +7,11 @@ body{
   /*colocar menu para cima*/
 }
 .flex img{
-  width: 400px;
+  width: 429px;
   margin: 17px;
   padding-top: 80px;
-  border-radius: 2rem 300px;
+  border-radius: 0 50% 0 50%;
+  display: inline-block;
 }
 .flex{
  justify-content: space-between;
@@ -22,12 +23,15 @@ body{
  text-align: center;
 
 }
+
 *, h1, h2, h3, p {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;   font-optical-sizing: auto;   font-weight: 600;   font-style: normal;
   }
-  
+
+
+  /*Nav inicio*/
   a {
     color: #fff;
     text-decoration: none;
@@ -130,8 +134,10 @@ body{
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
+/* NAV FIM*/
 
-  /*part image*/
+
+  /*part carrosel inicio*/
 
  .image-slider {
     min-height: 30em;
@@ -276,3 +282,5 @@ color: #fff;
 .footer-letter p{
   color: #7f37c9;
   }
+
+  /*Rodape fim*/

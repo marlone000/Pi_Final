@@ -43,7 +43,7 @@
     </div>
     <div>
         <a href="./evangelion.php">
-            <img src="IMG/evangeliom.jpg" alt="Foto do anbime Evangelion" class="img-fluid">
+            <img src="IMG/evangeliom.jpg" alt="Foto do anbime" class="img-fluid evangeliom">
             <h2>Evangelion</h2>
         </a>
     </div>

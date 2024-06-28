@@ -1,0 +1,312 @@
+body *{
+    background-image: url(/IMG/background.png);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.flex{
+    background-color: #0e0c0c;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
+      color: black;
+      padding: 30px 40px;
+      display:flex;
+      flex-wrap: wrap;
+      max-width: 800px;
+      margin: 0 auto;
+      border-radius: 13px;
+  }
+  .flex>div{
+      flex: 200px;
+      margin: 10px 10px;
+  } 
+
+  .text-start{
+    color: rgb(160, 147, 216);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+body{
+    background-color: #0e0c0c;
+  }
+  .cabecalho{
+    border-top: 23px  solid;
+    border-bottom: 6px solid;
+    /*colocar menu para cima*/
+  }
+  .flex img{
+    width: 350px;
+    margin: 17px;
+    padding-top: 80px;
+  }
+  .flex{
+   justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+  }
+  .flex h2{
+   color: #fff;
+   text-align: center;
+  
+  }
+  *, h1, h2, h3, p {
+      margin: 0;
+      padding: 0;
+      font-family: "Montserrat", sans-serif;   font-optical-sizing: auto;   font-weight: 600;   font-style: normal;
+    }
+    
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    a:hover {
+      opacity: 0.7;
+    }
+    
+    .logo {
+      font-size: 24px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+    }
+    
+    nav {
+      z-index: 60!important;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+      background: #23232e;
+      height: 8vh; 
+  }
+    
+    .nav-list {
+      list-style: none;
+      display: flex;
+    }
+    
+    .nav-list li {
+      letter-spacing: 3px;
+      margin-left: 32px
+    }
+    
+    .mobile-menu {
+      display: none;
+      cursor: pointer;
+      z-index: 2;
+    }
+    
+    .mobile-menu div {
+      width: 32px;
+      height: 2px;
+      background: #fff;
+      margin: 8px;
+      transition: 0.3s;
+    }
+    
+    @media (max-width: 999px) {
+      body {
+        overflow-x: hidden;
+      }
+      .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        z-index: 1;
+      }
+      .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+      }
+      .mobile-menu {
+        display: block;
+      }
+    }
+    
+    .nav-list.active {
+      transform: translateX(0);
+    }
+    
+    @keyframes navLinkFade {
+      from {
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
+    .mobile-menu.active .line1 {
+      transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    
+    .mobile-menu.active .line2 {
+      opacity: 0;
+    }
+    
+    .mobile-menu.active .line3 {
+      transform: rotate(45deg) translate(-5px, -7px);
+    }
+  
+    /*part image*/
+  
+   .image-slider {
+      min-height: 30em;
+      height: 100vh;
+      position: relative;
+      background-image: url(./evangeliom.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      transition: 0.3s;
+  } 
+  
+  .image-slider * {
+      box-sizing: border-box;
+  } 
+  
+  .rubrica {
+    background: linear-gradient(rgba(255, 255, 255, 0.001),#a773ea);
+      /* background: linear-gradient(rgba(68, 64, 71, 0.027),#7d5ba1); */
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 4em 1em 2em 1em;
+      text-align: center;
+      font-family: 'Montserrat', 'Montserrat', Calibri, 'Montserrat', sans-serif;
+  } 
+  
+  .seta-esquerda, .seta-direita {
+      background: #fff;
+      position: absolute;
+      top: 40%;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: 0.3s;
+  } 
+  
+  .seta-esquerda:hover, 
+  .seta-direita:hover {
+      background: #6320d1;
+      color: #fff;
+  }
+  
+  .seta-esquerda {
+      left: 1em;
+  } 
+  
+  
+  .seta-direita {
+      right: 1em;
+  } 
+  
+  .image-fade {
+      animation: imgFade 0.5s ease-in-out;
+  } 
+  
+  @keyframes imgFade {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+  } 
+  
+  /* parte do rodape*/
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+  :root {
+      --color-neutral-0: #0e0c0c;
+      --color-neutral-10: #171717;
+      --color-neutral-30: #a8a29e;
+      --color-neutral-40: #f5f5f5;
+  
+  }
+  
+  main {
+      height: 80vh;
+  }
+  
+  footer {
+      width: 100%;
+      color: var(--color-neutral-40);
+  }
+  .footer-link {
+      text-decoration: none;
+  }
+  
+  #footer_content {
+      background-color: var(--color-neutral-10);
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      padding: 3rem 0rem 0rem 3.5rem;
+  }
+  
+  #footer_contacts h1 {
+      margin-bottom: 0.75rem;
+  }
+  
+  .footer-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      list-style: none;
+  }
+  
+  .footer-list .footer-link {
+      color: var(--color-neutral-30);
+      transition: all 0.4s;
+  }
+  
+  .footer-list .footer-link:hover {
+      color: #7f37c9;
+  }
+  
+  #footer_copyright {
+      display: flex;
+      justify-content: center;
+      background-color: var(--color-neutral-0);
+      font-size: 0.9rem;
+      padding: 1rem;
+      font-weight: 100;
+  }
+  
+  @media screen and (max-width: 768px) {
+      #footer_content {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 2rem;
+      }
+  }
+  
+  @media screen and (max-width: 426px) {
+      #footer_content {
+          grid-template-columns: repeat(1, 1fr);
+          padding: 3rem 2rem;
+      }
+  }
+  .footer-letter h3,a,h1{
+  color: #fff;
+  }
+  .footer-letter p{
+    color: #7f37c9;
+    }
+  

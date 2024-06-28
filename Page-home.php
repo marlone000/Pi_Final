@@ -7,9 +7,9 @@
         <div class="seta-direita">
             <i class="fa-solid fa-arrow-right"></i>
         </div>
-        <div class="rubrica">
-            <h1>Tokyo Revengers</h1>
-            <p>Tokyo Revengers mostra a dualidade do protagonista seu lado emotivo e suas atitutes de ajudar a todos de forma racional sem pensar em si mesmo</p>
+       <div class="rubrica">
+            <h1>Evangelion</h1>
+            <p>Evangelion é um anime muito cativante que te prende em um universo totalmente oposto de nossas realidades</p>
         </div>
     </section>
 <!-- Carrousel Fim  -->
@@ -18,13 +18,13 @@
    
 <section class="flex">
     <div>
-        <a href="../ANIMES/vinland.php">
+        <a href="/IMG/vinland.php">
             <img src="IMG/viland_saga.jpg" alt="imagem do personagem Torfin do anime Villand Saga" class="img-fluid">
             <h2>Viland Saga</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/bleach.php">
+        <a href="/IMG/bleach.php">
             <img src="IMG/Bleach.jpg" alt="Foto do anime Bleach" class="img-fluid">
             <h2>Bleach</h2>
         </a>

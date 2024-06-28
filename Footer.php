@@ -24,7 +24,7 @@
 
     </ul>
 
-    <img src="./IMG/logo_senac.png" alt="" class="img-fluid"> <a class="logo" href="#"></a>
+    <a class="logo" href="https://www.sp.senac.br/senac-americana"><img src="./IMG/logo_senac.png" alt="" class="img-fluid"> </a>
     <br><br>
 </div>
 

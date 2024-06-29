@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>+Anime</title>
-    <link rel="stylesheet" href="reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/Home.css">
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.min.css">
@@ -15,16 +14,17 @@
 </head>
 <body>
     <header class="cabecalho">
-        <nav>
-          <img src="IMG/logo.png" alt=""> <a class="logo" href=""></a>
+        <nav class="d-flex justify-content-between">
+          <a class="logo ms-4" href="Page-home.php"><img src="IMG/logo.png" alt=""></a>
           <div class="mobile-menu">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
           </div>
-          <ul class="nav-list ">
+          <ul class="nav-list">
             <li><a href="Page-home.php">Início</a></li>
             <li><a href="sobre.php">Sobre</a></li>
+            <li></li>
           </ul>
         </nav>
       </header>

@@ -14,16 +14,17 @@
 </head>
 <body class="body">
     <header class="cabecalho">
-        <nav>
-          <img src="IMG/logo.png" alt=""> <a class="logo" href=""></a>
+        <nav class="justify-content-between">
+          <a class="logo ms-4" href="Page-home.php"><img src="IMG/logo.png" alt=""> </a>
           <div class="mobile-menu">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
           </div>
-          <ul class="nav-list ">
+          <ul class="nav-list">
             <li><a href="Page-home.php">Início</a></li>
             <li><a href="sobre.php">Sobre</a></li>
+            <li></li>
           </ul>
         </nav>
       </header>

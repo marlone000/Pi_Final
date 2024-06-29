@@ -43,7 +43,7 @@
     </div>
     <div>
         <a href="./evangelion.php">
-            <img src="IMG/evangeliom.jpg" alt="Foto do anbime" class="img-fluid evangeliom">
+            <img src="IMG/evangeliom.jpg" alt="Foto do anime Evangelion" class="img-fluid evangeliom">
             <h2>Evangelion</h2>
         </a>
     </div>
@@ -61,7 +61,7 @@
     </div>
     <div>
         <a href="./cdz.php">
-            <img src="IMG/cavaleitos.jpg" alt="Foto do anime Cavaleiros do Zodiaco" class="img-fluid">
+            <img src="IMG/cavaleitos.jpg" alt="Foto do anime Cavaleiros do Zodíaco" class="img-fluid">
             <h2>Cavaleiros do Zodíaco</h2>
         </a>
     </div>

@@ -16,7 +16,7 @@
 
 <!-- conteudo site inicio -->
    
-<section class="flex">
+<section class="flex capas">
     <div>
         <a href="./vinland.php">
             <img src="IMG/viland_saga.jpg" alt="imagem do personagem Torfin do anime Villand Saga" class="img-fluid">
@@ -43,7 +43,7 @@
     </div>
     <div>
         <a href="./evangelion.php">
-            <img src="IMG/evangeliom.jpg" alt="Foto do anime Evangelion" class="img-fluid evangeliom">
+            <img src="IMG/evangeliom.jpg" alt="Foto do anime Evangelion" class="img-fluid">
             <h2>Evangelion</h2>
         </a>
     </div>

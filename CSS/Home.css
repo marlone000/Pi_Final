@@ -284,3 +284,10 @@ color: #fff;
   }
 
   /*Rodape fim*/
+
+
+  .capas img{
+    width: 428px!important;
+    height: 225px!important;
+    object-fit: cover!important;
+  }

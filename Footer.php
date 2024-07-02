@@ -4,13 +4,13 @@
         <h1>Anime Code</h1>
         <p>Nós somos nossos sonhos!</p>
     </div>
-    &nbsp;
+    <br><br>
     <ul class="footer-list">
         <li>
             <h3>Blog</h3>
         </li> 
         <li>
-            <a href="Page-home.php" class="footer-link">Animes</a>
+            <a href="home.php" class="footer-link">Animes</a>
         </li>
     </ul>
     <ul class="footer-list">

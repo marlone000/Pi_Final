@@ -15,7 +15,7 @@
 <body class="body">
     <header class="cabecalho">
         <nav class="justify-content-between">
-          <a class="logo ms-4" href="Page-home.php"><img src="IMG/logo.png" alt=""> </a>
+          <a class="logo ms-4" href="home.php"><img src="IMG/logo.png" alt=""> </a>
           <div class="mobile-menu">
             <div class="line1"></div>
             <div class="line2"></div>

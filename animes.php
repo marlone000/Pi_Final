@@ -28,4 +28,4 @@ include ("./conexao/conexao.php")
   </div>
 <?php endwhile; ?>
   <!-- card com conteudo fim -->
-  <?php include("Footer.php")?>
+  <?php include("footer.php")?>

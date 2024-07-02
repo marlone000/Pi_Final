@@ -22,7 +22,7 @@
             <div class="line3"></div>
           </div>
           <ul class="nav-list">
-            <li><a href="Page-home.php">Início</a></li>
+            <li><a href="home.php">Início</a></li>
             <li><a href="sobre.php">Sobre</a></li>
             <li></li>
           </ul>

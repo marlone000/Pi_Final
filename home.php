@@ -1,4 +1,4 @@
-<?php include ("Header.php");
+<?php include ("header.php");
 include ("./conexao/conexao.php")
 ?>
 <!-- Carrousel inicio -->
@@ -29,8 +29,8 @@ include ("./conexao/conexao.php")
             <img src="<?=$umAnime['img']?>" alt="<?=$umAnime['nome'];?>" class="img-fluid">
             <h2><?=$umAnime['nome']?></h2>
         </div>
+        <?php endwhile; ?>
 </section>
 <br><br><br>
-<?php endwhile; ?>
     <!-- conteudo site fim -->
-<?php include ("Footer.php");?>
+<?php include ("footer.php");?>

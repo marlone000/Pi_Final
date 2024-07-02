@@ -4,7 +4,7 @@
         <h1>Anime Code</h1>
         <p>Nós somos nossos sonhos!</p>
     </div>
-    <br><br>
+    <br><br> &nbsp;
     <ul class="footer-list">
         <li>
             <h3>Blog</h3>

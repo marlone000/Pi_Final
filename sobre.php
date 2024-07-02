@@ -1,4 +1,4 @@
-<?php include("Header-do-Sobre&animes.php");?>
+<?php include("headerAnimeSobre.php");?>
 
 
 
@@ -27,4 +27,4 @@
 
 
 
-<?php include ("Footer.php");?> 
+<?php include ("footer.php");?> 

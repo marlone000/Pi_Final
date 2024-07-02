@@ -13,7 +13,7 @@ $img = $_POST["img"];
 
 include "conexao.php";
 
-$sql = "insert into animes(id, nome, nome_jap, autor, capitulos,qtd_eps, sinopse, img ) values('id', 'nome', 'nome_jap', 'autor', 'capitulos', 'finalizado', 'qtd_eps', 'img')";
+$sql = "insert into animes(id, nome, nome_jap, autor, capitulos,qtd_eps, sinopse, img ) values('$id', '$nome', '$nome_jap', '$autor', '$capitulos', '$finalizado', '$qtd_eps', '$img')";
 echo $sql;
 
 $resultado = mysqli_query($conexao, $sql);

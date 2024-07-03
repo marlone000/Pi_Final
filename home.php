@@ -18,7 +18,7 @@ include ("./conexao/conexao.php")
  
 <!-- conteudo site inicio -->
    
-<section class="flex">
+<section class="flex capas">
 <?php
       $sql = "select * from animes";
       $resultado = mysqli_query($conexao, $sql);
@@ -33,4 +33,4 @@ include ("./conexao/conexao.php")
 </section>
 <br><br><br>
     <!-- conteudo site fim -->
-<?php include("Footer.php")?>
+<?php include("footer.php")?>

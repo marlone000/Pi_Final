@@ -11,7 +11,7 @@
         
         <div id='msgError'></div>
         <div id='msgSuccess'></div>
-            <form method="post" action="inserir.php" enctype="multipart/form-data">
+            <form method="post" action="inserir.php"enctype="multipart/form-data">
                 <div class="label-float">
                    <input name="nome" type="text" id="nome" placeholder=" " required>
                    <label id="labelNome" for="nome">Nome</label>
@@ -25,18 +25,12 @@
                 <div class="label-float">
                    <input name="senha" type="password" id="senha" placeholder=" " required>
                    <label id="labelSenha" for="senha">Senha</label>
-                   <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                   <i id="verSenha"  aria-hidden="true"></i>
                    
                 </div>
-    
-                <div class="label-float">
-                   <input name="confirmarSenha" type="password" id="confirmSenha" placeholder=" " required>
-                   <label id="labelConfirmSenha" for="confirmSenha">Confirmar Senha</label>
-                   <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
-                </div>
-                
+   
                 <div class='justify-center'>
-                   <button onclick='cadastrar()'>Cadastrar</button>
+                   <button type="submit" onclick='cadastrar()'>Cadastrar</button>
                 </div>
             </form>
         

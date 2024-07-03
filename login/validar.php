@@ -1,5 +1,5 @@
 <?php
-include "../conexão/conexao.php";
+include "../conexao/conexao.php";
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];
  
@@ -16,6 +16,6 @@ if (mysqli_num_rows($query) != 1) {
 }
  
 mysqli_close($conexao);
-header('location:../Page-home.php');
+header('location:../home.php');
  
 ?>

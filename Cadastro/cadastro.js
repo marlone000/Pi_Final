@@ -1,3 +1,4 @@
+
 let btn = document.querySelector('#verSenha')
 let btnConfirm = document.querySelector('#verConfirmSenha')
 
@@ -14,9 +15,6 @@ let senha = document.querySelector('#senha')
 let labelSenha = document.querySelector('#labelSenha')
 let validSenha = false
 
-let confirmSenha = document.querySelector('#confirmSenha')
-let labelConfirmSenha = document.querySelector('#labelConfirmSenha')
-let validConfirmSenha = false
 
 let msgError = document.querySelector('#msgError')
 let msgSuccess = document.querySelector('#msgSuccess')
@@ -63,22 +61,9 @@ senha.addEventListener('keyup', () => {
   }
 })
 
-confirmSenha.addEventListener('keyup', () => {
-  if(senha.value != confirmSenha.value){
-    labelConfirmSenha.setAttribute('style', 'color: red')
-    labelConfirmSenha.innerHTML = 'Confirmar Senha *As senhas não conferem'
-    confirmSenha.setAttribute('style', 'border-color: red')
-    validConfirmSenha = false
-  } else {
-    labelConfirmSenha.setAttribute('style', 'color: green')
-    labelConfirmSenha.innerHTML = 'Confirmar Senha'
-    confirmSenha.setAttribute('style', 'border-color: green')
-    validConfirmSenha = true
-  }
-})
-
 function cadastrar(){
-  if(validNome && validUsuario && validSenha && validConfirmSenha){
+
+  if(validNome && validUsuario && validSenha){
     let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
     
     listaUser.push(
@@ -96,10 +81,6 @@ function cadastrar(){
     msgSuccess.innerHTML = '<strong>Cadastrando usuário...</strong>'
     msgError.setAttribute('style', 'display: none')
     msgError.innerHTML = ''
-    
-    setTimeout(()=>{
-        window.location.href = 'http://127.0.0.1:5500/Projeto-Final/index.html'
-    }, 3000)
   
     
   } else {

@@ -1,10 +1,9 @@
 <!-- footer inicio -->
-<div id="footer_content" class="footer-letter">
+<div id="footer_content" class="footer-letter d-flex justify-content-between">
     <div id="footer_contacts">
         <h1>Anime Code</h1>
         <p>Nós somos nossos sonhos!</p>
     </div>
-    <br><br> &nbsp;
     <ul class="footer-list">
         <li>
             <h3>Blog</h3>
@@ -25,7 +24,7 @@
     </ul>
 
     <a class="logo" href="https://www.sp.senac.br/senac-americana"><img src="./IMG/logo_senac.png" alt="" class="img-fluid"> </a>
-    <br><br>
+   <br>
 </div>
 
 <div id="footer_copyright">
